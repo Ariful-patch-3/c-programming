@@ -7,7 +7,7 @@ int main(){
    
 
  //int robin,rimon;
-   // scanf("%d%% %d%%",&robin,&rimon);
+   // scanf("%d%c %d%c",&robin,&p,&rimon,&p);
 
   //  printf("%d %d",robin,rimon);
 
