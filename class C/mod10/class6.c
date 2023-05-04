@@ -5,7 +5,9 @@ int main(){
    scanf("%d ",&n);
    s=n-1;
    k=1;
-   for(int i=1;i<=(2*n);i++)
+   
+   //printf("%d",n);
+   for(int i=1;i<=(n*2);i++)
   {
     for(int j=1;j<=s;j++){
       printf(" ");
@@ -14,9 +16,12 @@ int main(){
       printf("*");
     }
   
-   if(i<=n-1){
+   if(i<n){
     s--;
     k=k+2;
+   }
+   else if(i==n){
+    
    }
    else{
     s++;
