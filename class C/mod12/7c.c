@@ -1,18 +1,28 @@
 #include <stdio.h>
 
-int sum(int x,int y)
+void sum(int a[],int n)
 {
-    int sum=x+y;
-    return sum;
-
+    
+   int c=0;
+     for(int i=0;i<n;i++){
+       if(a[i]==0){
+        break;
+       }
+    c++;   
+    }
+    printf("%d",c);
+    
+     
 }
 int main(){
-    int x,y;
-    scanf("%d %d",&x,&y);
-   int s=sum(x,y);
-   printf("%d\n",s);
+   int n;
+   scanf("%d",&n);
+   int a[n];
+   for(int i=0;i<n;i++){
+    scanf("%d",&a[i]);
    
-    
+   }
+    sum(a,n);
     return 0;
 
 }

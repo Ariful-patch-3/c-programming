@@ -2,7 +2,7 @@
 
 void sum(int x,int y)
 {
-    int s=x+y;
+    int s=x*y;
     printf("%d\n",s);
    
    

@@ -20,9 +20,7 @@ int main(){
     s--;
     k=k+2;
    }
-   else if(i==n){
-    
-   }
+   
    else{
     s++;
     k=k-2;
